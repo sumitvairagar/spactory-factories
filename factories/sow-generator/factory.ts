@@ -1,4 +1,4 @@
-import { factory, stripMarkdownFences } from 'spactory-core'
+import { factory, stripMarkdownFences } from 'spactory-core/factory-only'
 
 export default factory('sow-generator', async (ctx) => {
   const scope = await ctx.stage('scope', {

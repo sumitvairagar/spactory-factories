@@ -1,4 +1,4 @@
-import { factory, stripMarkdownFences } from 'spactory-core'
+import { factory, stripMarkdownFences } from 'spactory-core/factory-only'
 
 export default factory('blog-post', async (ctx) => {
   const outline = await ctx.stage('outline', {

@@ -1,4 +1,4 @@
-import { factory, stripMarkdownFences } from 'spactory-core'
+import { factory, stripMarkdownFences } from 'spactory-core/factory-only'
 
 export default factory('pitch-deck', async (ctx) => {
   const brief = await ctx.stage('brief', {
